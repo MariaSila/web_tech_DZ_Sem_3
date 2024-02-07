@@ -5,8 +5,7 @@
 
 function greeting(name) {
     alert(`Привет, ${name}!`);
-    // console.log(`Привет, ${name}!`); // если имелось ввиду вывод только в консоль
 }
 
-let name = prompt("Введите свое имя");
+const name = prompt("Введите свое имя");
 greeting(name);
